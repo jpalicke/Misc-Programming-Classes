@@ -1,0 +1,16 @@
+/**
+   Course: CS 27500
+   Name: Joseph Palicke
+   Email: jpalicke@sbcglobal.net
+   Assignment: 4
+   
+   Explanation for lines 36 and 37 of TestPairs.java
+
+*/
+
+Pair<String, Pair<String,String>> p4 = new Pair<String, Pair<String, String>>("very", new Pair<String, String>("strange", "stuff") );
+
+This line creates a Pair reference variable p4, with Pair member types of String for the first element, and Pair for the second element, which
+in itself has two String members for the first and second elements.  Then the line calls the Pair constructor, creating a new pair with the first
+element being "very" and the second element being a pair, which that pair is being created by calling the Pair constructor with two strings
+"strange" and "stuff".  P4 is set to point at this new Pair created by these constructors.
